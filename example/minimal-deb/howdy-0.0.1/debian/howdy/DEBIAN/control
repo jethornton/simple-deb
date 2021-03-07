@@ -1,0 +1,10 @@
+Package: howdy
+Version: 0.0.1
+Architecture: amd64
+Maintainer: John Thornton <jt@gnipsel.com>
+Installed-Size: 15
+Depends: python3 (>= 3.6)
+Section: utils
+Priority: optional
+Description: simple helloworld package
+ Just prints "Hi", it's very useful.

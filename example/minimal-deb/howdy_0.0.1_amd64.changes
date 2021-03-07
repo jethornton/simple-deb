@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 06 Mar 2021 10:53:14 -0600
+Source: howdy
+Binary: howdy
+Architecture: source amd64
+Version: 0.0.1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: John Thornton <jt@gnipsel.com>
+Changed-By: John Thornton <jt@gnipsel.com>
+Description:
+ howdy      - simple helloworld package
+Changes:
+ howdy (0.0.1) UNRELEASED; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ bc94b785b03fc8ead770d5f18501e1999b6c7a4c 490 howdy_0.0.1.dsc
+ 0c62a7794f49f9b97689f30c2b54a5e3c7fbf61e 1184 howdy_0.0.1.tar.xz
+ ac06a26153351f1f0222acaff340079380ff4392 4571 howdy_0.0.1_amd64.buildinfo
+ e21b2776b3e79e7f0be4bfc5377a093f29b14989 1760 howdy_0.0.1_amd64.deb
+Checksums-Sha256:
+ 6b3525045d35ed674cee62e40dc4adafd5fb4efcc7f357fcba1568c045f2e0ea 490 howdy_0.0.1.dsc
+ 09aacba609d81eaa5723f45bb1cade1e52a561e2a8e9185d837a472fd0903856 1184 howdy_0.0.1.tar.xz
+ de0a952d6606afc7247022e1740d6d874dac4f288e117bb02f46a769cc4525fb 4571 howdy_0.0.1_amd64.buildinfo
+ 2a57cbe37ae0ee0e167af0cdf822d0e511eb936cd07eb95cbce1448faffeb070 1760 howdy_0.0.1_amd64.deb
+Files:
+ cd94baa633d4080c6721e7d99cf9d839 490 utils optional howdy_0.0.1.dsc
+ b8cb52ede90de053bb4a71392568eaad 1184 utils optional howdy_0.0.1.tar.xz
+ a59eabac6feafa17e18dd933fb2947ca 4571 utils optional howdy_0.0.1_amd64.buildinfo
+ 605085364433eef4f3f1181e06b3b11a 1760 utils optional howdy_0.0.1_amd64.deb

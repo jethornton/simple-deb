@@ -1,0 +1,13 @@
+Source: howdy  
+Maintainer: John Thornton <jt@gnipsel.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: utils
+Priority: optional
+
+Package: howdy  
+Priority: optional  
+Architecture: any
+Depends: python3 (>=3.6), ${misc:Depends}  
+Description: simple helloworld package
+ Just prints "Hi", it's very useful.
