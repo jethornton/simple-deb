@@ -1,6 +1,8 @@
 Directory Structure
 ===================
 
+Building a deb of a Python program so you can share it.
+
 The example Python program is called `howdy`. Setup the directory structure for
 the program.
 
