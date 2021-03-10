@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
-print('howdy')
+from libhowdy import lib1
 
-input("Press enter to close")
+def main():
+	print('howdy')
+	ret = lib1.testme()
+	print(f'lib1.testme() returned {ret}')
+
+	input("Press enter to close")
+
+if __name__ == '__main__':
+	main()

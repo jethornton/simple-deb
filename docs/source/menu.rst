@@ -9,7 +9,7 @@ most file managers will drive you nuts if you rename as they automaticly
 add .desktop when you save the name so if you rename a .desktop be sure
 and delete the .desktop.
 
-So now the directories and files look like this
+So now the directories and files look like this after building the deb
 ::
 
 	john@d10cave:~/minimal-deb$ tree

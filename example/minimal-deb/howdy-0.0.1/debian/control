@@ -9,5 +9,8 @@ Package: howdy
 Priority: optional  
 Architecture: any
 Depends: python3 (>=3.6), ${misc:Depends}  
-Description: simple helloworld package
- Just prints "Hi", it's very useful.
+Description: Simple helloworld package
+ Just prints "Howdy", it's very useful.
+ Note the second and additional lines are
+ indented with one space.
+

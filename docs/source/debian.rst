@@ -36,8 +36,8 @@ changelog
 Various Debian maintenance tools recognize your email address and name
 to use by the shell environment variables $DEBEMAIL and $DEBFULLNAME.
 
-You can add to the ~/.bashrc file with your favorite text editor. The ~
-means your home directory.
+You can add them to the ~/.bashrc file with your favorite text editor.
+The ~ means your home directory.
 ::
 
 	DEBEMAIL="your.email.address@example.org"
@@ -92,7 +92,7 @@ The control file has the following as a minimum to satisify lintian.
 	Architecture: any
 	Depends: python3 (>=3.6), ${misc:Depends}  
 	Description: simple helloworld package
-	 Just prints "Hi", it's very useful.
+	 Just prints "Howdy", it's very useful.
 	 Note the second and additional lines are
 	 indented with one space.
 

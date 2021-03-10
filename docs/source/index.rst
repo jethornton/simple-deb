@@ -16,6 +16,7 @@ Welcome to Building a Simple Debian deb's documentation!
    program
    deb
    menu
+   import
 
 
 Indices and tables

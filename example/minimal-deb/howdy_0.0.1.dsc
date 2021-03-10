@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  howdy deb utils optional arch=any
 Checksums-Sha1:
- 0c62a7794f49f9b97689f30c2b54a5e3c7fbf61e 1184 howdy_0.0.1.tar.xz
+ 007989afe272c48bf476568b165803eef58d27af 1428 howdy_0.0.1.tar.xz
 Checksums-Sha256:
- 09aacba609d81eaa5723f45bb1cade1e52a561e2a8e9185d837a472fd0903856 1184 howdy_0.0.1.tar.xz
+ 46af956873e73e5b6ecd99640cc3f17f2f21bc8a9880d574ede6bd96d3db4441 1428 howdy_0.0.1.tar.xz
 Files:
- b8cb52ede90de053bb4a71392568eaad 1184 howdy_0.0.1.tar.xz
+ c92cfeeb93a9784bf1f3c9e554029e8a 1428 howdy_0.0.1.tar.xz

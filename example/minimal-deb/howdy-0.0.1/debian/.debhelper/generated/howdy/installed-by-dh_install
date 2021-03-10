@@ -1,2 +1,3 @@
 ./src/howdy
-./howdy.desktop
+./src/libhowdy/lib1.py
+./Howdy.desktop

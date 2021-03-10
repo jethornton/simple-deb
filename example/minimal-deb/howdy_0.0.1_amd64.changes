@@ -9,23 +9,23 @@ Urgency: medium
 Maintainer: John Thornton <jt@gnipsel.com>
 Changed-By: John Thornton <jt@gnipsel.com>
 Description:
- howdy      - simple helloworld package
+ howdy      - Simple helloworld package
 Changes:
  howdy (0.0.1) UNRELEASED; urgency=medium
  .
    * Initial release.
 Checksums-Sha1:
- bc94b785b03fc8ead770d5f18501e1999b6c7a4c 490 howdy_0.0.1.dsc
- 0c62a7794f49f9b97689f30c2b54a5e3c7fbf61e 1184 howdy_0.0.1.tar.xz
- ac06a26153351f1f0222acaff340079380ff4392 4571 howdy_0.0.1_amd64.buildinfo
- e21b2776b3e79e7f0be4bfc5377a093f29b14989 1760 howdy_0.0.1_amd64.deb
+ 0d085f98eef70e3f812093f812d2f4726e9b04b3 490 howdy_0.0.1.dsc
+ 007989afe272c48bf476568b165803eef58d27af 1428 howdy_0.0.1.tar.xz
+ a631963982ee6d885e2a93a030f7defc37bb6e4b 4571 howdy_0.0.1_amd64.buildinfo
+ 80d918a822ed323f4fec1cb1c851ef4c7fedee2a 2052 howdy_0.0.1_amd64.deb
 Checksums-Sha256:
- 6b3525045d35ed674cee62e40dc4adafd5fb4efcc7f357fcba1568c045f2e0ea 490 howdy_0.0.1.dsc
- 09aacba609d81eaa5723f45bb1cade1e52a561e2a8e9185d837a472fd0903856 1184 howdy_0.0.1.tar.xz
- de0a952d6606afc7247022e1740d6d874dac4f288e117bb02f46a769cc4525fb 4571 howdy_0.0.1_amd64.buildinfo
- 2a57cbe37ae0ee0e167af0cdf822d0e511eb936cd07eb95cbce1448faffeb070 1760 howdy_0.0.1_amd64.deb
+ 3eb015564e57ad5b5824be4eebce62f186b5e7da5b4020c030f45791fab38dcd 490 howdy_0.0.1.dsc
+ 46af956873e73e5b6ecd99640cc3f17f2f21bc8a9880d574ede6bd96d3db4441 1428 howdy_0.0.1.tar.xz
+ aaec555219ac744531c6218b93617b1087099ff2353080dca71308c2f3c46a3a 4571 howdy_0.0.1_amd64.buildinfo
+ 97f8045934344284bc49e953c54285839d226cf6ebe1cabde9fff072f0abcc4a 2052 howdy_0.0.1_amd64.deb
 Files:
- cd94baa633d4080c6721e7d99cf9d839 490 utils optional howdy_0.0.1.dsc
- b8cb52ede90de053bb4a71392568eaad 1184 utils optional howdy_0.0.1.tar.xz
- a59eabac6feafa17e18dd933fb2947ca 4571 utils optional howdy_0.0.1_amd64.buildinfo
- 605085364433eef4f3f1181e06b3b11a 1760 utils optional howdy_0.0.1_amd64.deb
+ 7eee0a38aa55f20f544c7b1a7b868579 490 utils optional howdy_0.0.1.dsc
+ c92cfeeb93a9784bf1f3c9e554029e8a 1428 utils optional howdy_0.0.1.tar.xz
+ b545f24f08a3534544d4b63f36628144 4571 utils optional howdy_0.0.1_amd64.buildinfo
+ 791b368014876a5c6d8b8ab73bb5756e 2052 utils optional howdy_0.0.1_amd64.deb
