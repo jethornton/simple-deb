@@ -3,9 +3,13 @@ Importing Library
 
 Add the subdirectory `libhowdy` to howdy for our library file. Add an
 `__init__.py` and `lib1.py` files to the libhowdy directory.
+
+.. Note:: all the files that `dpkg-buildpackage` creates has been
+	removed for clarity.
+
 ::
 
-	john@d10cave:~/github/simple-deb/example$ tree
+	john@d10cave:~/minimal-deb$ tree
   .
 	└── minimal-deb
 	    └── howdy-0.0.1
@@ -41,6 +45,9 @@ lib1.py
 
 howdy
 -----
+
+Modifications to the original `howdy` file to import the library and
+test the import by calling the function.
 ::
 
 	#!/usr/bin/env python3
@@ -59,6 +66,9 @@ howdy
 
 install
 -------
+
+Add the installation location for the library file in the format `file`
+space `location`.
 ::
 
 	src/howdy usr/bin
