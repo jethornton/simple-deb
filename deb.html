@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Building the deb &#8212; Building a Simple Debian deb  documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Desktop Application Menu" href="menu.html" />
+    <link rel="prev" title="Create the Howdy program" href="program.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="menu.html" title="Desktop Application Menu"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="program.html" title="Create the Howdy program"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Building a Simple Debian deb  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Building the deb</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="building-the-deb">
+<h1>Building the deb<a class="headerlink" href="#building-the-deb" title="Permalink to this headline">¶</a></h1>
+<p>In the howdy-0.0.1 directory of the program in this case it’s a
+subdirectory of minimal-deb open a terminal and build the deb with the
+following command.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dpkg</span><span class="o">-</span><span class="n">buildpackage</span> <span class="o">-</span><span class="n">us</span> <span class="o">-</span><span class="n">uc</span>
+</pre></div>
+</div>
+<p>To check the deb file open a terminal in the minimal-deb directory and
+use lintian to verify.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>john@d10cave:~/minimal-deb$ ls
+howdy-0.0.1                  howdy_0.0.1_amd64.changes  howdy_0.0.1.dsc
+howdy_0.0.1_amd64.buildinfo  howdy_0.0.1_amd64.deb      howdy_0.0.1.tar.xz
+john@d10cave:~/minimal-deb$ lintian howdy_0.0.1_amd64.deb
+john@d10cave:~/minimal-deb$
+</pre></div>
+</div>
+<p>If there are no errors then nothing is displayed.</p>
+<p>Right click on the deb and open with Gdebi.</p>
+<img alt="_images/gdebi-01.png" class="align-center" src="_images/gdebi-01.png" />
+<p>You can see what files will be installed where on the <cite>Included files</cite>
+tab.</p>
+<img alt="_images/gdebi-02.png" class="align-center" src="_images/gdebi-02.png" />
+<p>You can install the deb then open a terminal and type on howdy to see
+the program is installed.</p>
+<img alt="_images/program-01.png" class="align-center" src="_images/program-01.png" />
+<p>You can also type in man howdy to see the man page.</p>
+<img alt="_images/man-01.png" class="align-center" src="_images/man-01.png" />
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="program.html"
+                        title="previous chapter">Create the Howdy program</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="menu.html"
+                        title="next chapter">Desktop Application Menu</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/deb.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="menu.html" title="Desktop Application Menu"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="program.html" title="Create the Howdy program"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Building a Simple Debian deb  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Building the deb</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, John Thornton.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.2.
+    </div>
+  </body>
+</html>

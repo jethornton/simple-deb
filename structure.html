@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directory Structure &#8212; Building a Simple Debian deb  documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Creating Debian Files" href="debian.html" />
+    <link rel="prev" title="Welcome to Building a Simple Debian deb’s documentation!" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="debian.html" title="Creating Debian Files"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Building a Simple Debian deb’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Building a Simple Debian deb  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Directory Structure</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="directory-structure">
+<h1>Directory Structure<a class="headerlink" href="#directory-structure" title="Permalink to this headline">¶</a></h1>
+<p>Building a deb of a Python program so you can share it.</p>
+<p>The example Python program is called <cite>howdy</cite>. Setup the directory structure for
+the program.</p>
+<p>I created a directory called minimum-deb and placed the other directories in
+there.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>john@d10cave:~/minimal-deb$ mkdir -p howdy-0.0.1/debian/source howdy-0.0.1/man howdy-0.0.1/src
+john@d10cave:~/minimal-deb$ tree
+.
+└── howdy-0.0.1
+    ├── debian
+    │   └── source
+    ├── man
+    └── src
+
+5 directories, 0 files
+</pre></div>
+</div>
+<p>The program directory also has the revision as part of the name.</p>
+<p>You can create the directories with a file manager or in a terminal with the
+following command.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="n">howdy</span><span class="o">-</span><span class="mf">0.0</span><span class="o">.</span><span class="mi">1</span><span class="o">/</span><span class="n">debian</span><span class="o">/</span><span class="n">source</span> <span class="n">howdy</span><span class="o">-</span><span class="mf">0.0</span><span class="o">.</span><span class="mi">1</span><span class="o">/</span><span class="n">man</span> <span class="n">howdy</span><span class="o">-</span><span class="mf">0.0</span><span class="o">.</span><span class="mi">1</span><span class="o">/</span><span class="n">src</span>
+</pre></div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to Building a Simple Debian deb’s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="debian.html"
+                        title="next chapter">Creating Debian Files</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/structure.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="debian.html" title="Creating Debian Files"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Building a Simple Debian deb’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Building a Simple Debian deb  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Directory Structure</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, John Thornton.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.2.
+    </div>
+  </body>
+</html>
