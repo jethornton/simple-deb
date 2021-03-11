@@ -4,7 +4,7 @@ Importing Library
 Add the subdirectory `libhowdy` to howdy for our library file. Add an
 `__init__.py` and `lib1.py` files to the libhowdy directory.
 
-.. Note:: all the files that `dpkg-buildpackage` creates has been
+.. Note:: all the files that `dpkg-buildpackage` creates have been
 	removed for clarity.
 
 ::
