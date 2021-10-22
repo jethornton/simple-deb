@@ -1,1 +1,6 @@
 docs/build
+example/minimal-deb/*.dsc
+example/minimal-deb/*.xz
+example/minimal-deb/*.buildinfo
+example/minimal-deb/*.changes
+
