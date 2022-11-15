@@ -1,0 +1,3 @@
+src/howdy usr/bin
+src/libhowdy/lib1.py usr/lib/python3/dist-packages/libhowdy
+*.desktop usr/share/applications

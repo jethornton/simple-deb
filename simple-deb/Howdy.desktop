@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Howdy
+Comment=We just Say Howdy
+Exec=howdy
+Icon=/usr/share/pixmaps/linuxcncicon.png
+Categories=Utility;
+Terminal=true
+StartupNotify=true
+StartupWMClass=howdy
+Name[en_US]=Howdy

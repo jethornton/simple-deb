@@ -1,0 +1,16 @@
+Source: howdy  
+Maintainer: John Thornton <jt@gnipsel.com>
+Build-Depends: debhelper (>= 11.0.0)
+Standards-Version: 4.5.1
+Section: utils
+Priority: optional
+
+Package: howdy  
+Priority: optional  
+Architecture: any
+Depends: python3 (>=3.6), ${misc:Depends}  
+Description: Simple helloworld package
+ Just prints "Howdy", it's very useful.
+ Note the second and additional lines are
+ indented with one space.
+
