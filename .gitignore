@@ -1,6 +1,10 @@
 docs/build
-example/minimal-deb/*.dsc
-example/minimal-deb/*.xz
-example/minimal-deb/*.buildinfo
-example/minimal-deb/*.changes
-
+*.build
+*.dsc
+*.xz
+*.buildinfo
+*.changes
+simple-deb/debian/.debhelper/*
+simple-deb/debian/howdy
+simple-deb/debian/*.substvars
+simple-deb/debian/debhelper*
